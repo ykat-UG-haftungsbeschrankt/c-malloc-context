@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Debug c-malloc-context",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/c-malloc-context",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"miDebuggerPath": "/usr/bin/gdb",
+			"preLaunchTask": "Build c-malloc-context"
+		}
+	]
+}

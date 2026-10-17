@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build c-malloc-context",
+			"type": "shell",
+			"command": "make",
+			"args": [
+				"clean",
+				"all",
+				"CFLAGS=-std=c99 -Wall -Wextra -Wpedantic -g -O0"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"problemMatcher": [
+				"$gcc"
+			]
+		}
+	]
+}
